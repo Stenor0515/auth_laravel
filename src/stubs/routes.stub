@@ -1,0 +1,11 @@
+
+CollectiveAuth::routes([
+    'login' => true,
+    'logout' => true,
+    'register' => true,
+    'reset' => true,
+    'confirm' => true,
+    'verify' => true,
+]);
+
+Route::get('/home', 'HomeController@index')->name('home');
